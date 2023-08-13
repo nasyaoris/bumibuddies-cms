@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jumbotrons",
+  "info": {
+    "singularName": "jumbotron",
+    "pluralName": "jumbotrons",
+    "displayName": "Jumbotron",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "page": {
+      "type": "string"
+    }
+  }
+}
